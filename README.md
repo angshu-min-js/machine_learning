@@ -34,6 +34,7 @@ print s[6:20]
 dir("String") ---- Gives the in-build function list for string
 
 fruit = 'banana'
+
 'n' in fruit
 
 >>True
