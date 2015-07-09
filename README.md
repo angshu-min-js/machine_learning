@@ -39,4 +39,21 @@ fruit = 'banana'
 
 >>True
 
+#List: A linear collection of values that stay in order
+#Dictionary: A “bag” of values, each with its own label
 
+Dictionaries have different names in different languages
+> Associative Arrays - Perl / PHP
+> Properties or Map or HashMap - Java
+> Property Bag - C# / .Net
+
+
+dictionary = { 'chuck' : 1 , 'fred' : 42','jan': 100}
+for aaa,bbb in dictionary.items() :
+print aaa, bbb
+
+jan 100
+chuck 1
+fred 42
+
+counts[word] = counts.get(word,0) + 1
