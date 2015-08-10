@@ -65,12 +65,14 @@ counts[word] = counts.get(word,0) + 1
 ####Tuple: They are non changeable list
 
 #######Difference between list and tuple:
+```
 *Tuples are immutable just like strings. 
 *There is also a semantic distinction that should guide their usage. 
 *Tuples are heterogeneous data structures (i.e., their entries have different meanings), while lists are homogeneous sequences. 
 *Tuples have structure, lists have order.
 *Tuples: count & index
 *Tuples are more efficient, used when the list isn't changing and temporary
+```
 
 ```
 >>> (x, y) = (4, 'fred') //tuple has '( )'
