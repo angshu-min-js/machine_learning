@@ -23,11 +23,7 @@ print len(features_train[0])
 ## 3785 features with 10 percentile
 ## 379 features with 1 percentile
 
-#########################################################
-### your code goes here ###
-
-
-#########################################################
+##############################################
 from sklearn import tree
 from sklearn.metrics import accuracy_score
 
