@@ -7,7 +7,7 @@
 
     Start by loading/formatting the data
 
-    After that, it's not our code anymore--it's yours!
+    After that, it's not our code anymore--it's your!
 """
 
 import pickle
