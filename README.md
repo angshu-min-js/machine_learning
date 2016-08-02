@@ -131,7 +131,7 @@ for i in range(10000,1000001,20000):
     d_time = t.timeit(number=1000)
     print("%d, %10.3f, %10.3f" %(i, lst_time, d_time))
 
-```
+
 10000,      0.139,      0.002
 30000,      0.401,      0.002
 50000,      0.742,      0.002
@@ -154,7 +154,7 @@ for i in range(10000,1000001,20000):
 ```
 # List is O(n) and Dictionary is O(1)
 
-```
+
 
 ### Data Structures
 
