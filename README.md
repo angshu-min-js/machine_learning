@@ -152,7 +152,7 @@ for i in range(10000,1000001,20000):
 350000,      5.577,      0.003
 370000,      5.818,      0.002
 ```
-# List is O(n) and Dictionary is O(1)
+### List is O(n) and Dictionary is O(1)
 
 
 
