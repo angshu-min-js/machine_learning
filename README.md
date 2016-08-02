@@ -1,6 +1,7 @@
 # Python
 ### Class
-'''
+
+```
 def gcd(m, n):  #Define global function gcd
     while m % n != 0:
         old_m = m
@@ -24,16 +25,16 @@ class Fraction:
         common = gcd(new_num, new_den)
         return Fraction(new_num // common,  new_den // common)
 
-
-my_f = Fraction(3, 5)
+		my_f = Fraction(3, 5)
 print my_f
 print my_f + Fraction(8, 5)
-'''
+```
+
 ################################################################################
 
 ### Algorithm Analysis
 
-'''
+```
 import time
 
 def sum_of_n1(n):
@@ -55,14 +56,14 @@ print "Algorithm (Summation Eqn):", sum_of_n2(5000000)
 #Iterative: (12499997500000L, 0.9650001525878906)
 #Algorithm: (Summation Eqn) (12500002500000L, 0.0)
 #Iterative solutions takes more time and less accurate
-'''
+```
 #### Big-O Notation
 # The order of magnitude function describes the part of T(n) that increases the
 # fastest as the value of n increases. Order of magnitude is often called Big-O
 # notation (for "order") and written as O(F(n)).  It provides a useful
 # approximation to the actual number of steps in the computation.
 
-'''
+```
 a = 5
 b = 6
 c = 10 # 3 assignment
@@ -77,10 +78,10 @@ for k in range(n): # n
 d = 33 # 1
 
 # So, T(n) = 3 + 3n^2 + 2n + 1 =  4 + 3n^2 + 2n : O(n^2) --> Big-O, Quadratic (n^2)
-'''
+```
 ##### List: append: O(1), concatenation: O(k)
 
-'''
+```
 def test1():
     l = []
     for i in range(1000):
@@ -115,9 +116,9 @@ print("list range ",t4.timeit(number=1000), "milliseconds")
 # ('append ', 0.1982510243736293, 'milliseconds')
 # ('comprehension ', 0.09311756341678024, 'milliseconds')
 # ('list range ', 0.03239667522277667, 'milliseconds')
-'''
+```
 
-'''
+```
 import timeit
 import random
 
@@ -130,7 +131,7 @@ for i in range(10000,1000001,20000):
     d_time = t.timeit(number=1000)
     print("%d, %10.3f, %10.3f" %(i, lst_time, d_time))
 
-'''
+```
 10000,      0.139,      0.002
 30000,      0.401,      0.002
 50000,      0.742,      0.002
@@ -150,10 +151,10 @@ for i in range(10000,1000001,20000):
 330000,      5.465,      0.003
 350000,      5.577,      0.003
 370000,      5.818,      0.002
-'''
+```
 # List is O(n) and Dictionary is O(1)
 
-'''
+```
 
 ### Data Structures
 
@@ -163,7 +164,7 @@ for i in range(10000,1000001,20000):
 #### Linked List: The basic building block for the linked list implementation is the node.
 #### Unordered List: Collection of nodes
 
-'''
+```
 import turtle
 
 my_turtle = turtle.Turtle()
@@ -177,5 +178,5 @@ def draw_spiral(my_turtle, line_len):
 
 draw_spiral(my_turtle, 100)
 my_win.exitonlclick()
-'''
+```
 ---------------------------------------------------------------------------------------------------------------
