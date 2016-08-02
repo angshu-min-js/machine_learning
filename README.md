@@ -58,10 +58,10 @@ print "Algorithm (Summation Eqn):", sum_of_n2(5000000)
 #Iterative solutions takes more time and less accurate
 ```
 #### Big-O Notation
-# The order of magnitude function describes the part of T(n) that increases the
-# fastest as the value of n increases. Order of magnitude is often called Big-O
-# notation (for "order") and written as O(F(n)).  It provides a useful
-# approximation to the actual number of steps in the computation.
+##### The order of magnitude function describes the part of T(n) that increases the
+##### fastest as the value of n increases. Order of magnitude is often called Big-O
+##### notation (for "order") and written as O(F(n)).  It provides a useful
+##### approximation to the actual number of steps in the computation.
 
 ```
 a = 5
