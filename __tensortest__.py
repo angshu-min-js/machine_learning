@@ -1,1 +1,1 @@
-print('Welcome, to TensorFlow')
+print('Welcome to TensorFlow')
