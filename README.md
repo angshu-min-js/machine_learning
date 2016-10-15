@@ -1,5 +1,3 @@
-# Assignments for the Udacity deep learning course
-
 ## Python
 ### Class
 
