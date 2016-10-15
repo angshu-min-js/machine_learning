@@ -1,1 +1,1 @@
-# Assignments for the Udacity deep learning course
+## Assignments for the Udacity deep learning course
