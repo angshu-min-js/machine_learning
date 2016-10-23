@@ -1,0 +1,7 @@
+*.zip
+*.pickle
+*.tar
+*.gz
+*.tar.gz
+deep_learning/notMNIST_large
+deep_learning/notMNIST_small
