@@ -180,4 +180,4 @@ draw_spiral(my_turtle, 100)
 my_win.exitonlclick()
 ```
 ---------------------------------------------------------------------------------------------------------------
-** PS: I was usually using a VM and didn't push the code most of the time so I made a git rebase script :D for this repo **
+############## ** PS: I was usually using a VM and didn't push the code most of the time so I made a git rebase script :D for this repo **
