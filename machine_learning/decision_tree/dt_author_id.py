@@ -32,5 +32,5 @@ clf = clf.fit(features_train, labels_train)
 prediction = clf.predict(features_test)
 print accuracy_score(prediction, labels_test)
 ## Accuracy: 0.977815699659 (10 percentile)
-##
 ## Accuracy: 0.967007963595 (1 percentile)
+ 
